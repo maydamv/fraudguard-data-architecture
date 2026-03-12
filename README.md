@@ -62,7 +62,7 @@ REAL-TIME PATH (<200ms)           BATCH PATH (every 1-6h)
 
 ---
 
-## 🔄 Data Flow
+## Data Flow
 
 ### Real-Time (< 200ms)
 
