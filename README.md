@@ -1,6 +1,6 @@
 # 🛡️ FraudGuard — Real-Time Fraud Detection Data Architecture
 
-> Final project for Data Engineering. Designed by a solo data engineer responsible for the full data platform of a digital payments company processing **50M+ transactions/day**.
+> Final Data Engineering Project. Designed to be a complete data platform for a digital payments company that processes over **50M+ transactions/day**.
 
 ---
 
