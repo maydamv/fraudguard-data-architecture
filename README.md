@@ -92,11 +92,15 @@ S3 Data Lake (raw Parquet)
 ```
 fraudguard-data-architecture/
 ├── presentation/
-│   └── FraudGuard_Architecture.pptx
+│   └── FraudGuard_Architecture.pptx     # Architecture slides
 ├── simulator/
-│   └── fraudguard_simulator.jsx
-├── docs/
-│   └── architecture.md
+│   └── fraudguard_simulator.jsx         
+├── simulator-app/                       # Runnable React app
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js                       
+│   │   └── FraudGuardSimulator.jsx      
+│   └── package.json
 └── README.md
 ```
 
@@ -136,13 +140,13 @@ The interactive simulator shows the real-time pipeline in action — stages ligh
 
 ```bash
 # Clone the repo
-git clone https://github.com/maydamv/fraudguard-data-architecture
-cd fraudguard-data-architecture/simulator
+git clone https://github.com/YOUR_USERNAME/fraudguard-data-architecture
+cd fraudguard-data-architecture/simulator-app
 
 # Install dependencies
 npm install
 
-# Run (requires a React environment)
+# Run (require a React environment)
 npm start
 ```
 
